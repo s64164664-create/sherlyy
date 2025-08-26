@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .left, .navbar .right, .navbar .center {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .left a {
+            margin-right: 20px;
+        }
+        .navbar .right a {
+            margin-left: 20px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .main-content p {
+            font-size: 16px;
+            color: #555;
+        }
+        .main-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left, .navbar .right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left a, .navbar .right a {
+                margin: 5px 0;
+            }
+            .categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            .category {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        .Horizontal-gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .Horizontal-gallery img{
+            margin: 10px;
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="center">
+         <h1>
+          SHERLY'S SECRET GARDEN CAKE
+         </h1>
+        </div>
+        <div class="right">
+         <a href="about.html">
+          ABOUT
+         </a>
+         <a href="iklan.html">
+            HOME
+         </a>
+        </div>
+       </div>
+       <div class="navbar">
+        <a href="new arrivals.html">
+         NEW ARRIVALS
+        </a>
+        <a href="flower cake.html">
+         FLOWERS
+        </a>
+        <a href="hampers.html">
+         GIFTS
+        </a>
+        <a href="bunga papan.html">
+         BUNGA PAPAN
+        </a>
+        <a href="location.html">   
+         LOCATIONS
+        </a>
+       </div>
+       <div class="Horizontal-gallery">
+       <p><img src="gambar/d988c6e5-9835-4cb8-8799-5dd3972ffda3.jpeg" alt="bunga papan"></p>
+       <p><img src="gambar/bb64d382-71c7-402c-a195-838940bbded3.jpeg" alt="bunga papan"></p>
+       <p><img src="gambar/2689383f-d825-4d28-b3d9-b38faacf0370.jpeg" alt="bunga papan"></p>
+       <p><img src="gambar/58a1db51-1f2e-417b-9e6b-02c5ce1462c1.jpeg" alt="bunga papan"></p>
+       </div>
+
+       <div class="Horizontal-gallery">
+       <p><img src="gambar/Entrance sign.jpeg" alt="bunga papan"></p>
+       <p><img src="gambar/30 Creative Lucite _Acrylic Wedding Signs for 2021 Trends - Elegantweddinginvites_com Blog.jpeg" alt="bunga papan"></p>
+    </div>
+       </body>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Navigasi</title>
+    <style>
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .left, .navbar .right, .navbar .center {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .left a {
+            margin-right: 20px;
+        }
+        .navbar .right a {
+            margin-left: 20px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .main-content p {
+            font-size: 16px;
+            color: #555;
+        }
+        .main-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left, .navbar .right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left a, .navbar .right a {
+                margin: 5px 0;
+            }
+            .categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            .category {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="center">
+         <h1>
+          SHERLY'S SECRET GARDEN CAKE
+         </h1>
+        </div>
+        <div class="right">
+         <a href="about.html">
+          ABOUT
+         </a>
+         <a href="iklan.html">
+            HOME
+         </a>
+        </div>
+       </div>
+       <div class="navbar">
+        <a href="new arrivals.html">
+         NEW ARRIVALS
+        </a>
+        <a href="flower cake.html">
+         FLOWERS
+        </a>
+        <a href="hampers.html">
+         GIFTS
+        </a>
+        <a href="bunga papan.html">
+         BUNGA PAPAN
+        </a>
+        <a href="location.html">   
+         LOCATIONS
+        </a>
+       </div>
+       <div class="main-content">
+        <img alt="Various cakes including a chocolate cake, a red velvet cake, and a colorful themed cake with the text 'Jackson Liu' on it" height="400" src="https://storage.googleapis.com/a1aa/image/r0XwKe0Iwc2XQaFPf2PUuZBmjnNuH17kDq68Z4IyJefcMglPB.jpg" width="600"/>
+        <h1>
+         KUE TART
+        </h1>
+        <p>
+         Pilihan cake lezat dengan bahan premium dan kualitas terbaik.
+         <br/>
+         Professional Service, Best Quality, For large quantity order inquiries or corporate needs,
+         <a href="#">
+          contact our S2S Team
+         </a>
+        </p>
+        <div class="categories">
+         <div class="category">
+          <img alt="Tart" height="150" src="gambar/Strawberry Custard Tart.jpeg" width="150"/>
+           Tart
+          </p>
+         </div>
+         <div class="category">
+          <img alt="Ice Cream" height="150" src="gambar/Chocolate Chip Cookie Dough Ice Cream Cake.jpeg" width="150"/>
+          <p>
+           Ice Cream
+          </p>
+         </div>
+         <div class="category">
+          <img alt="Cookies" height="150" src="gambar/The Best Chewy Chocolate Chip Cookies Recipe by Tasty.jpeg" width="150"/>
+          <p>
+           Cookies
+          </p>
+         </div>
+         <div class="category">
+          <img alt="Savoury Dish" height="150" src="gambar/Chinese-Style Savoury Stuffed Breakfast Pancakes (Vegan Recipe).jpeg" width="150"/>
+          <p>
+           Savoury Dish
+          </p>
+         </div>
+         <div class="category">
+          <img alt="3D Cake" height="150" src="gambar/Japanese Strawberry Cake.jpeg" width="150"/>
+          <p>
+           3D Cake
+          </p>
+         </div>
+         <div class="category">
+          <img alt="Kue Ulang Tahun" height="150" src="gambar/Pastel.jpeg" width="150"/>
+          <p>
+           Kue Ulang Tahun
+           </p>
+           </div>
+           </div>
+</body>
+</html>

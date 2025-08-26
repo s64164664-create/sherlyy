@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .left, .navbar .right, .navbar .center {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .left a {
+            margin-right: 20px;
+        }
+        .navbar .right a {
+            margin-left: 20px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .main-content p {
+            font-size: 16px;
+            color: #555;
+        }
+        .main-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left, .navbar .right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left a, .navbar .right a {
+                margin: 5px 0;
+            }
+            .categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            .category {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        .Horizontal-gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .Horizontal-gallery img{
+            margin: 10px;
+            height: 300px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="center">
+         <h1>
+          SHERLY'S SECRET GARDEN CAKE
+         </h1>
+        </div>
+        <div class="right">
+         <a href="about.html">
+          ABOUT
+         </a>
+         <a href="iklan.html">
+            HOME
+         </a>
+        </div>
+       </div>
+       <div class="navbar">
+        <a href="new arrivals.html"></a>
+         NEW ARRIVALS
+        </a>
+        <a href="flower cake.html">
+         FLOWERS
+        </a>
+        <a href="hampers.html">
+         GIFT 
+        </a>
+        <a href="bunga papan.html">
+         BUNGA PAPAN
+        </a>
+        <a href="location.html">   
+         LOCATIONS
+        </a>
+       </div>
+       <div class="Horizontal-gallery">
+       <p><img src="gambar/@yanara_co.jpeg" alt="hampers"></p>
+       <p><img src="gambar/0ab60824-e385-4ef4-8dd4-b6ba2049034e.jpeg" alt="hampers"></p>
+       <p><img src="gambar/4e791e4f-86f9-4381-9543-16e7a2dbbf6c.jpeg" alt="hampers"></p>
+       <p><img src="gambar/bd307c24-8300-4ec7-a35f-bb4021f6dd5f.jpeg" alt="hampers"></p>
+    </div>
+    <div class="Horizontal-gallery">
+
+        <p><img src="gambar/c1e3ec84-7398-47ea-ad2f-b1f0879ea7c5.jpeg" alt="hampers"></p>
+       <p><img src="gambar/ffb8bb80-3ba1-46b5-8422-c1d9460d959a.jpeg" alt="hampers"></p>
+       <p><img src="gambar/Find your perfect handmade gift at Craft_and_Card! 🛍️ Handmade with love_ Enjoy 20% off your first.jpeg" alt="hampers"></p>
+       <p><img src="gambar/Snack tower pink.jpeg" alt="hampers"></p>
+    </div>
+       
+</body>
+</html>

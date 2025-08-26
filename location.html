@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .left, .navbar .right, .navbar .center {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .left a {
+            margin-right: 20px;
+        }
+        .navbar .right a {
+            margin-left: 20px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .main-content p {
+            font-size: 16px;
+            color: #555;
+        }
+        .main-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left, .navbar .right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left a, .navbar .right a {
+                margin: 5px 0;
+            }
+            .categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            .category {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            { 
+   /* Container card */
+   .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: auto;
+      max-width: 1250px;
+      font-size: 25px;
+      color: #c283c2;
+    }
+
+    /* Card */
+    .card {
+      background-color: #d8ecf8;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: auto;
+
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Card image */
+    .card img {
+      width: auto;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Card content */
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .card-content p {
+      font-size: 1em;
+      color: #98d0da;
+      margin-bottom: 15px;
+    }
+    .h1{
+        font-size: 30px;
+        padding: 40px 40px;
+        color: #9ed1d8;
+
+            }
+        }
+        .Horizontal-gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .Horizontal-gallery img{
+            margin: 10px;
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="center">
+         <h1>
+          SHERLY'S SECRET GARDEN CAKE
+         </h1>
+        </div>
+        <div class="right">
+         <a href="about.html">
+          ABOUT
+         </a>
+         <a href="iklan.html">
+            HOME
+         </a>
+        </div>
+       </div>
+       <div class="navbar">
+        <a href="new arrivals.html">
+         NEW ARRIVALS
+        </a>
+        <a href="flower cake.html">
+         FLOWERS
+        </a>
+        <a href="hampers.html">
+         GIFTS
+        </a>
+        <a href="bunga papan.html">
+         BUNGA PAPAN
+        </a>
+        <a href="location.html">   
+         LOCATIONS
+        </a>
+       </div>
+       <p><h1>Lokasi Kami</h1></p>
+       <p><h2>Selamat datang di Sherly Secret Garden Cake! Kami dengan senang hati melayani anda di berbagai 
+        lokasi kami. Baik anda ingin menjelahi desain kue kami yang indah, membuat pesanan khusus, atau sekedar 
+        menikmati sepotong manisan, Kunjungi kami di lokasi yang nyaman bagi anda!</h2></p>
+        <div></div>
+            <h2><p>Cabang utama Garden City, alamat: 123 Flower Lane, Garden City, 56789. 
+                <p>Hubungi (08812929848)</p>
+                <p>Jam operasional Senin-Jumat, pukul 09.00 - 20.00</p>
+                <p>Terletak di Jantung Garden City, Cabang utama kami adalah tempat semuanya dimulai. Masuki
+                   ruangan menawan yang dikelilingi bunga-bunga bermekaran, dan jelajahi rangkaian bunga kami.
+                   Tersediatempat parkir yang luas.</p></h1>
+        <p><h1>Kunjungi Kami</h1></p>           
+        
+</body>
+</html>

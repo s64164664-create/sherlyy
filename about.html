@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #97b8c2;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .left, .navbar .right, .navbar .center {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .left a {
+            margin-right: 20px;
+        }
+        .navbar .right a {
+            margin-left: 20px;
+        }
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .main-content h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .main-content p {
+            font-size: 16px;
+            color: #555;
+        }
+        .main-content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 150px;
+            margin: 10px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left, .navbar .right {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar .left a, .navbar .right a {
+                margin: 5px 0;
+            }
+            .categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            .category {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        .Horizontal-gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .Horizontal-gallery img{
+            margin: 10px;
+            height: auto;
+            width: auto;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .card-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            align-items: flex-start;
+        }
+        .card{
+            width: 70%;
+            background-color: lavender;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            margin: 25px;
+            height: auto;
+            padding: 20px;
+            align-items: center;
+
+        }
+        .card img{
+            border-radius: 10px;
+            width: 380px;
+            height: auto;
+            float: right;
+        }
+        .card-right img{
+            border-radius: 10px;
+            width: 200px;
+        }
+        .card h2 {
+            font-size: 30px;
+            margin: 1px;
+            color: #f0f0f0;
+        }
+        .card p {
+            font-size: 20px;
+            color: #6c757d;
+        }
+        .container {
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="center">
+         <h1>
+          SHERLY'S SECRET GARDEN CAKE
+         </h1>
+        </div>
+        <div class="right">
+         <a href="about.html">
+          ABOUT
+         </a>
+         <a href="iklan.html">
+            HOME
+         </a>
+        </div>
+       </div>
+      
+       
+        <div class="card-container">
+        <div class="card">
+        <h1>Rasakan kelezatan dalam setiap lapisan kue kami</h1>
+        <h2><p>Toko kue kami adalah tempat penuh dengan kelezatan dan kreativitas. Disini, setiap kue bukan
+            hanya sekedar makanan, tetapi juga karya seni yang memanjakan mata dan lidah. Dengan berbagai 
+            produk pilihan yang mengunggah selera dan pelayanan yang ramah, kami siap menjadi bagian dari 
+            setiap momen manis dalam hidup anda. Jangan ragu untuk mengunjungi kami dan temukan keajaiban
+            di setiap potongan kue</h2>
+        </p>
+        </div>
+       </div>
+       <div class="Horizontal-gallery">
+
+           <img src="gambar/download.jpeg" alt="y">
+        </div>
+</body>
+</html>
